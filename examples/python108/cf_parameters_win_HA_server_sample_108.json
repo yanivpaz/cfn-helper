@@ -1,0 +1,19 @@
+{
+    "RegionId": "us-east-1", 
+    "StackName": "HAServerWindows", 
+    "TemplateUrl": "https://s3.amazonaws.com/arcgisstore108/12790/templates/arcgis-server-windows.template", 
+    "DeploymentBucket": "your-s3-bucket", 
+    "ServerLicenseFile": "server.prvc", 
+  	"VPCId": "yourVpcID", 
+	"Subnet1": "yourSubnetID1", 
+	"Subnet2": "yourSubnetID2", 
+    "ASInstanceType": "m4.xlarge", 
+	"FSInstanceType": "m4.xlarge", 
+    "DriveSizeRoot": "150", 
+    "KeyName": "ArcGISEnterpriseTest", 
+    "SiteAdmin": "siteadmin", 
+    "SiteAdminPassword": "password", 
+	"RunAsUserPassword": "P@ssw0rd123", 
+    "SSLCertificateARN": "arn:aws:acm:us-east-1:your/arn", 
+    "PostInstallationScript": "none"
+}

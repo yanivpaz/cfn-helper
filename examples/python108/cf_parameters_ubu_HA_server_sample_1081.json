@@ -1,0 +1,18 @@
+{
+    "RegionId": "us-east-1", 
+    "StackName": "HAServerUbuntu", 
+    "TemplateUrl": "https://arcgisstore1081.s3.amazonaws.com/14362/templates/arcgis-server-ubuntu.template", 
+    "DeploymentBucket": "your-s3-bucket", 
+    "ServerLicenseFile": "server.prvc", 
+  	"VPCId": "yourVpcID", 
+	"Subnet1": "yourSubnetID1", 
+	"Subnet2": "yourSubnetID2", 
+    "ASInstanceType": "m4.xlarge", 
+	"FSInstanceType": "m4.xlarge", 
+    "DriveSizeRoot": "150", 
+    "KeyName": "ArcGISEnterpriseTest", 
+    "SiteAdmin": "siteadmin", 
+    "SiteAdminPassword": "password", 
+    "SSLCertificateARN": "arn:aws:acm:us-east-1:your/arn", 
+    "PostInstallationScript": "none"
+}

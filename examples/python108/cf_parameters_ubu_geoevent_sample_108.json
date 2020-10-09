@@ -1,0 +1,18 @@
+{
+    "RegionId": "us-east-1", 
+    "StackName": "GeoEventServerUbuntu", 
+    "TemplateUrl": "https://s3.amazonaws.com/arcgisstore108/12790/templates/arcgis-geoevent-server-ubuntu.template", 
+    "DeploymentBucket": "your-s3-bucket", 
+    "ServerLicenseFile": "server.prvc", 
+	"SSLCertificateFile": "your.domain.com.pfx", 
+	"SSLCertPassword": "yourDomainSSLPassword", 
+  	"VPCId": "yourVpcID", 
+	"Subnet1": "yourSubnetID1", 
+	"Subnet2": "yourSubnetID1", 
+    "ASInstanceType": "m4.xlarge", 
+    "DriveSizeRoot": "150", 
+    "KeyName": "ArcGISEnterpriseTest", 
+    "SiteAdmin": "siteadmin", 
+    "SiteAdminPassword": "password", 
+    "PostInstallationScript": "none"
+}

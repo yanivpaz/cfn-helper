@@ -1,0 +1,22 @@
+{
+    "RegionId": "us-east-1", 
+    "StackName": "AllinOneUbuntu", 
+    "TemplateUrl": "https://arcgisstore1081.s3.amazonaws.com/14362/templates/arcgis-allinone-ubuntu.template", 
+    "DeploymentBucket": "your-s3-bucket", 
+    "PortalLicenseFile": "portal.json", 
+    "UserLicenseTypeID": "creatorUT", 
+    "ServerLicenseFile": "server.prvc", 
+    "SSLCertificateFile": "your_domain_com.pfx", 
+    "SSLCertPassword": "yourDomainSSLPassword", 
+  	"VPCId": "yourVpcID", 
+	"Subnet": "yourSubnetID", 
+    "InstanceType": "m4.xlarge", 
+    "DriveSizeRoot": "150", 
+    "KeyName": "ArcGISEnterpriseTest", 
+    "StoreType": "FileSystem", 
+    "SiteAdmin": "siteadmin", 
+    "SiteAdminPassword": "password", 
+    "SiteDomain": "your.domain.com", 
+    "SiteEIPAllocationID": "yourEIPAllocationID", 
+	"PostInstallationScript": "none"
+}
